@@ -8,9 +8,9 @@ class Home extends CI_Controller{
     }
 
     public function index(){
-        $data['title'] = 'M4K - Magic for Kitche';
-		$data['description'] = 'Especializada em produtos e serviços que promovam melhoria da produtividade em operações de cozinhas profissionai';
-		$data['keywords'] = 'rack lava louca restaurante, rack lava loucas industrial, rack lava loucas, produtividade restaurante, produtividade cozinha, produtividade lava louca';
+        $data['title'] = 'M4K Brasil';
+        $data['description'] = 'Especializada em produtos e serviços que promovam melhoria da produtividade em operações de cozinhas profissionais';
+        $data['keywords'] = 'rack lava louca restaurante; rack lava loucas industrial; rack lava loucas; produtividade restaurante; produtividade cozinha; produtividade lava louca';
         $menu['contato'] = 'active';
         $conteudo['pagina_view'] = 'home_view';
         $this->load->view('html_header', $data);

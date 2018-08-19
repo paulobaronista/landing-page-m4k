@@ -1,35 +1,40 @@
 <div class="container-fluid home padding-off-mobile">
-    <div class="hidden-xs col-xs-12 col-sm-7 col-md-8"></div>
+    <div class="hidden-xs col-xs-12 col-sm-7 col-md-7 col-lg-8"></div>
     <div class="logo-mobile">
         <img class="img-responsive visible-xs" src="<?= base_url(); ?>assets/images/logo-mobile.jpg" alt="">
     </div>
     <p class="txt-01 hidden-xs">Produtividade </p>
-    <div class="col-xs-12 col-sm-5 col-md-4 form">
-        <!--<form method="post" role="form" action="<?php echo base_url("contato")?>">-->
-        <form method="post" role="form" action="http://trevisanservice.com.br/formEmail/m4k/contato">
-            <span class="tt-form text-center">
-                <p>Envie uma mensagem <br/> pelo formulário abaixo</p>
-            </span>
-            <div class="group-form">
-                <div class="form-group">
-                    <label for="nome">Nome*</label>
-                    <input id="nome" type="text" class="nome form-control" name="nome" required="required" />
-                </div>
-                <div class="form-group">
-                    <label for="email">Email*</label>
-                    <input id="email" type="email" class="email form-control" name="email" required="required"/>
-                </div>
-                <div class="form-group">
-                    <label for="telefone">Telefone</label>
-                    <input id="telefone" class="phone form-control" type="tel" name="phone"/>
-                </div>
-                <div class="form-group">
-                    <label for="form-mensagem">Mensagem</label>
-                    <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss"></textarea>
-                </div>
-                <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
-            </div>  
-        </form>
+    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-12 padding-off text-center phone">
+            <a href="tel:1136752076">(11) 3675-2076</a>        
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 padding-off form">
+            <!--<form method="post" role="form" action="<?php echo base_url("contato")?>">-->
+            <form method="post" role="form" action="http://trevisanservice.com.br/formEmail/m4k/contato">
+                <span class="tt-form text-center">
+                    <p>Preencha os dados abaixo para<br/> um atendimento personalizado!</p>
+                </span>
+                <div class="group-form">
+                    <div class="form-group">
+                        <label for="nome">Nome*</label>
+                        <input id="nome" type="text" class="nome form-control" name="nome" required="required" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input id="email" type="email" class="email form-control" name="email" required="required"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone">Telefone</label>
+                        <input id="telefone" class="phone form-control" type="tel" name="phone"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="form-mensagem">Mensagem</label>
+                        <textarea id="form-mensagem" class="msg form-control" rows="3" name="mss"></textarea>
+                    </div>
+                    <button type="submit" class="btn_enviar enviar btn center-block" title="enviar" name="enviar_email" value="enviar">Enviar</button>
+                </div>  
+            </form>
+        </div>
     </div>
 </div> 
 <p class="txt-01 visible-xs">Produtividade </p>
@@ -105,7 +110,34 @@
         </div>
     </div>
 </div>
+<div class="container-fluid footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1 text-center padding-off">
+                <p>COPYRIGHT © M4K - Magic for Kitchen 2018 - Tel: (11) 3675-2076 - TODOS OS DIREITOS RESERVADOS </p>
+            </div>
+        </div>
+    </div>
+</div>
 <?php 
 if(isset($email_enviado))
     echo $email_enviado;
 ?>
+<!-- Código do Google para tag de remarketing -->
+<!--------------------------------------------------
+As tags de remarketing não podem ser associadas a informações pessoais de identificação nem inseridas em páginas relacionadas a categorias de confidencialidade. Veja mais informações e instruções sobre como configurar a tag em: http://google.com/ads/remarketingsetup
+--------------------------------------------------->
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 813457995;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/813457995/?guid=ON&amp;script=0"/>
+    </div>
+</noscript>

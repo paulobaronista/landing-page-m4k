@@ -42,13 +42,6 @@
     .servicos {
         margin-bottom: 20px;
     }
-    .servicos p {
-        font-family: 'Roboto', sans-serif;
-        font-weight: 300;
-        color: #000;
-        font-size: 19px;
-        line-height: 19px;
-    }
     form .tt-form {
         -webkit-border-top-left-radius: 20px;
         -webkit-border-top-right-radius: 20px;
@@ -57,11 +50,18 @@
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
     }
+    .servicos p {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        color: #000;
+        font-size: 19px;
+        line-height: 25px;
+    }
     .servicos p:nth-of-type(1) {
         color: #fa520a;
         font-size: 25px;
         line-height: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-top: 5px;
     }
     .faixa {
@@ -78,16 +78,17 @@
     }
     .box-produtos {
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         background-color: #fff;
     }
     .box-produtos hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
         border-top: 1px solid #fa520a;
     }
     .box-produtos img {
         margin-bottom: 10px;
+        margin-top: 10px;
     }
     .box-produtos span {
         color: #fa520a;
@@ -115,8 +116,18 @@
         font-family: 'Anton', sans-serif;
         text-transform: uppercase;
         margin: 0;
-        font-size: 24px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .phone a {
+        color: #000;
+        text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        margin: 0 0 10px 0;
+        display: block;
     }
 }
 
@@ -157,20 +168,21 @@
         padding-left: 90px;
     }
     .box-servicos {
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .servicos p {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: #000;
         font-size: 19px;
-        line-height: 19px;
+        line-height: 25px;
     }
     .servicos p:nth-of-type(1) {
         color: #fa520a;
         font-size: 25px;
         line-height: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-top: 5px;
     }
     .faixa {
@@ -183,16 +195,16 @@
         font-weight: 300;
         color: #fff;
         font-size: 19px;
-        line-height: 19px;   
+        line-height: 25px;   
     }
     .box-produtos {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         background-color: #fff;
     }
     .box-produtos hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
         border-top: 1px solid #fa520a;
     }
     .box-produtos img {
@@ -235,6 +247,16 @@
         font-size: 21px;
         line-height: 31px;
     }
+    .phone a {
+        color: #000;
+        text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        margin: 0;
+
+    }
 }
 
 /* Medium */
@@ -274,20 +296,21 @@
         padding-left: 90px;
     }
     .box-servicos {
-        margin-top: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .servicos p {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
         color: #000;
         font-size: 19px;
-        line-height: 19px;
+        line-height: 25px;
     }
     .servicos p:nth-of-type(1) {
         color: #fa520a;
         font-size: 25px;
         line-height: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-top: 5px;
     }
     .faixa {
@@ -300,16 +323,16 @@
         font-weight: 300;
         color: #fff;
         font-size: 19px;
-        line-height: 19px;   
+        line-height: 25px;   
     }
     .box-produtos {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         background-color: #fff;
     }
     .box-produtos hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
         border-top: 1px solid #fa520a;
     }
     .box-produtos img {
@@ -347,10 +370,20 @@
     form .tt-form p {
         color: #FFF;
         font-family: 'Anton', sans-serif;
-        font-size: 30px;
+        font-size: 23px;
         text-transform: uppercase;
         margin: 0;
-        line-height: 37px;
+        line-height: 29px;
+    }
+    .phone a {
+        color: #000;
+        text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        margin: 0;
+
     }
 }
 /* Large */
@@ -398,13 +431,13 @@
         font-weight: 300;
         color: #000;
         font-size: 19px;
-        line-height: 19px;
+        line-height: 25px;
     }
     .servicos p:nth-of-type(1) {
         color: #fa520a;
         font-size: 25px;
         line-height: 25px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
         padding-top: 5px;
     }
     .faixa {
@@ -417,16 +450,16 @@
         font-weight: 300;
         color: #fff;
         font-size: 19px;
-        line-height: 19px;   
+        line-height: 25px;   
     }
     .box-produtos {
         padding-top: 30px;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         background-color: #fff;
     }
     .box-produtos hr {
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin-top: 15px;
+        margin-bottom: 20px;
         border-top: 1px solid #fa520a;
     }
     .box-produtos img {
@@ -444,7 +477,7 @@
         margin-bottom: 10px;
     }
     form {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
     }
     .group-form {
@@ -464,10 +497,20 @@
     form .tt-form p {
         color: #FFF;
         font-family: 'Anton', sans-serif;
-        font-size: 30px;
+        font-size: 23px;
         text-transform: uppercase;
         margin: 0;
-        line-height: 37px;
+        line-height: 29px;
+    }
+    .phone a {
+        color: #000;
+        text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
+        font-family: 'Anton', sans-serif;
+        font-size: 40px;
+        line-height: 40px;
+        text-transform: uppercase;
+        margin: 0;
+
     }
 }
 .margin-top { margin-top: 10px; }
@@ -546,6 +589,7 @@ form .enviar {
     font-family: 'Anton', sans-serif;
     padding-bottom: 15px;
     padding-top: 13px;
+    border: solid 3px #fff;
 }
 form .enviar:hover, form .enviar:focus {
     color: #ddd;
@@ -555,8 +599,36 @@ form .enviar:hover, form .enviar:focus {
 }
 form .tt-form {
     width: 100%;
-    padding: 10px 0;
+    padding: 15px 0;
     float: left;
     background-color: #000000;
     margin-bottom: 10px;
+}
+.footer {
+    background-color: #fa520a;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;  
+}
+.avisos-fail p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 115px 5px;
+}
+.avisos-obrigado  p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 130px 5px;
 }
