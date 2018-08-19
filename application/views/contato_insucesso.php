@@ -5,7 +5,7 @@
     </div>
     <p class="txt-01 hidden-xs">Produtividade </p>
     <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4">
-        <div class="col-xs-12 col-sm-12 col-md-12 padding-off text-center phone">
+        <div class="col-xs-12 col-sm-12 col-md-12 padding-off text-center tel">
             <a href="tel:1136752076">(11) 3675-2076</a>        
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 padding-off form">

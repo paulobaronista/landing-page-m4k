@@ -119,7 +119,7 @@
         font-size: 18px;
         line-height: 22px;
     }
-    .phone a {
+    .tel a {
         color: #000;
         text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
         font-family: 'Anton', sans-serif;
@@ -247,7 +247,7 @@
         font-size: 21px;
         line-height: 31px;
     }
-    .phone a {
+    .tel a {
         color: #000;
         text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
         font-family: 'Anton', sans-serif;
@@ -375,7 +375,7 @@
         margin: 0;
         line-height: 29px;
     }
-    .phone a {
+    .tel a {
         color: #000;
         text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
         font-family: 'Anton', sans-serif;
@@ -502,7 +502,7 @@
         margin: 0;
         line-height: 29px;
     }
-    .phone a {
+    .tel a {
         color: #000;
         text-shadow: 2px 2px 0px rgba(255, 255, 255, 1);
         font-family: 'Anton', sans-serif;
