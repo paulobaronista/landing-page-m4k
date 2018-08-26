@@ -9,8 +9,8 @@
             <a href="tel:1136752076">(11) 3675-2076</a>        
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 padding-off form">
-            <!--<form method="post" role="form" action="<?php echo base_url("contato")?>">-->
-            <form method="post" role="form" action="http://trevisanservice.com.br/formEmail/m4k/contato">
+            <form method="post" role="form" action="<?php echo base_url("contato")?>">
+                <!--            <form method="post" role="form" action="http://trevisanservice.com.br/formEmail/m4k/contato">-->
                 <span class="tt-form text-center">
                     <p>Preencha os dados abaixo para<br/> um atendimento personalizado!</p>
                 </span>

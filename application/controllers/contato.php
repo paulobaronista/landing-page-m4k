@@ -27,7 +27,7 @@ class Contato extends CI_Controller{
             $this->email->from("contato@racklavaloucas.com.br","$nome"); //senha: rack@18LD
             $this->email->to('contato@racklavaloucas.com.br');
             $this->email->cc('leadsm4k@gmail.com, sac@m4kbr.com, diego.viriato@gmail.com, francisco@m4kbr.com, paulobaronista@gmail.com');
-    
+
             $this->email->subject($assunto);
             $this->email->message("<html xmlns='http://www.w3.org/1999/xhtml' dir='ltr' lang='pt-br'>
             <head> <meta http-equiv='content-type' content='text/html;charset=UTF-8' /> </head><body>
@@ -37,17 +37,17 @@ class Contato extends CI_Controller{
                         Mensagem:	{$mensagem}<br/>
                             </body></html>");
 
-            //            if($this->email->send()){				
-            //                redirect('contato/obrigado');
-            //            }else{
-            //                redirect('contato/fail');
-            //            }
-
             if($this->email->send()){				
-                redirect('http://racklavaloucas.com.br/contato/obrigado');
+                redirect('contato/obrigado');
             }else{
-                redirect('http://racklavaloucas.com.br/contato/fail');
+                redirect('contato/fail');
             }
+
+            //            if($this->email->send()){				
+            //                redirect('http://racklavaloucas.com.br/contato/obrigado');
+            //            }else{
+            //                redirect('http://racklavaloucas.com.br/contato/fail');
+            //            }
 
         }
 
